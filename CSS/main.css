@@ -1,0 +1,111 @@
+/* whole site css */
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+
+#logo {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+
+.wrapper {
+    display: grid;
+}
+
+.center {
+  margin: auto;
+}
+
+#site-heading {
+/*    padding-left: 5%;*/
+}
+
+/* Navigation CSS */
+
+/* ACTION - When clicked make the icon change or animate somehow */
+
+/* Reference: https://www.w3schools.com/howto/howto_css_menu_icon.asp */
+.bm-icon {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#header {
+    display: grid;
+}
+
+/* hide the menu until the burger is clicked */
+#main-menu{
+    display: none;
+}
+#main-menu ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#main-menu ul li a:hover{
+    text-decoration: underline;
+}
+#main-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* *********** Home Page CSS ********* */
+
+        /* Header Section CSS */
+#logo img {
+    height: 100px;
+    width: 100px;
+}
+
+
+/* *** MEDIA QUERY DESKTOP BREAKPOINT *** */
+
+/* ACTION - COMPLETE DESKTOP LAYOUT */
+/*
+@media only screen and (min-width: 768px) {
+
+    body{
+        background-color: red;
+    }
+  
+    .wrapper {
+      grid-template-columns: repeat(12, [col-start] 1fr);
+      grid-gap: 20px;
+    }
+
+    .full-width {
+      grid-column: col-start / span 12;
+    }
+    .item2 {
+      grid-column: col-start 6 / span 4 ;
+      grid-row: 1 / 3;
+    }
+    .item3 {
+      grid-column: col-start 2 / span 2;
+      grid-row: 2;
+    }
+    .item4 {
+      grid-column: col-start 3 / -1;
+      grid-row: 3;
+    }
+    
+}
+*/
